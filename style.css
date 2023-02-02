@@ -167,7 +167,7 @@ h3{
     .main__title{
         font-size: 3.2em;
         color: var(--mistery);
-        margin: 0.3em auto 0.2em auto;
+        margin: 0 auto 0.5em auto;
     }
 
     .p1{
@@ -194,6 +194,12 @@ h3{
         border-radius: 10px;
         padding: 20px 0;
         width: 30vw;
+    }
+
+    li{
+        position: relative;
+        bottom: 35px;
+        left: 25px;
     }
   
    

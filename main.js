@@ -4,7 +4,7 @@ const joker = document.querySelector(".img__card");
 
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
-recognition.lang = "en";
+recognition.lang = "pt-br";
 
 recognition.start();
 recognition.addEventListener("result", onSpeak);
@@ -12,6 +12,7 @@ recognition.addEventListener("result", onSpeak);
 function onSpeak(event){
     let command = event.results[0][0].transcript;
     showOnScreen(command)
+    console.log(command)
 }
 
 const instructions = document.querySelector(".instructions");
@@ -73,7 +74,7 @@ function showOnScreen(command){
 
         }
 
-        if(command ==="result"){
+        if(command ==="final"){
             finalResultEnglish()
         }
         
@@ -82,7 +83,7 @@ function showOnScreen(command){
 
         }
 
-        if(command ==="restart"){
+        if(command ==="Restart"){
             window.location.reload();
     }
 }

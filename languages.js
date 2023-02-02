@@ -2,7 +2,7 @@
 var mainMensage = document.querySelector(".main__mensage");
 var switchCommand = "próximo";
 var switchText = "";
-var commandsInEnglish = ["Now multiply by 2...", "Add more " +  secretNumber, "Now divide by 2...", "Minus the first number you thought on...", "Say: 'result'"];
+var commandsInEnglish = ["Now multiply by 2...", "Add more " +  secretNumber, "Now divide by 2...", "Minus the first number you thought on...", "Say: 'final'"];
 const p2 = document.querySelector(".p2");
 
 
@@ -13,9 +13,6 @@ function switchLanguageEnglish(){
     switchCommand = "next";
     switchText = "Sorry, can you repeat please...";    
 }
-
-switchLanguageEnglish()
-
 
 function switchLanguagePortuguese(){
     mainMensage.innerText = "Neste jogo, adivinharei o número que você está pensado...";
