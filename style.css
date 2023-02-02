@@ -138,5 +138,34 @@ h3{
         width: 30vw;
 
     }
+
+    
+    .list__language{
+        display: flex;
+        margin-left: 4em;
+        margin-top: 0;
+    }
+    
+    .img__brazil, .img__english{
+        width: 20px;
+        vertical-align: middle;
+        padding-left: 0.5em;
+    }
+
+    .main__mensage{
+        font-size: 30px;
+    }
+
+    .img__card{
+        width: 50vw;
+        margin-top: 1em;
+    }
+
+    .main__title{
+        font-size: 3.2em;
+        color: var(--mistery);
+        margin: 0.3em auto 0.2em auto;
+    }
+     
    
 }
