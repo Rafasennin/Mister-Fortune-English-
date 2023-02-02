@@ -39,7 +39,6 @@ h3{
     font-size: 1.5em ;
     margin: 0.5em 0.2;
     
-
 }
 
 .img__card{
@@ -130,6 +129,11 @@ h3{
 }
 
 @media screen and (max-width: 768px) {
+
+     body{
+        min-height: 95vh;
+    }
+
     .h3__result{
         font-size: 2.5em;
     }
@@ -139,10 +143,9 @@ h3{
 
     }
 
-    
     .list__language{
         display: flex;
-        margin-left: 4em;
+        margin-left: 2em;
         margin-top: 0;
     }
     
@@ -153,11 +156,11 @@ h3{
     }
 
     .main__mensage{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .img__card{
-        width: 50vw;
+        width: 65vw;
         margin-top: 1em;
     }
 
@@ -166,6 +169,32 @@ h3{
         color: var(--mistery);
         margin: 0.3em auto 0.2em auto;
     }
-     
+
+    .p1{
+        font-size: 23px;
+    }
+    
+    .p2{
+        font-size: 20px;
+    }
+
+    .instructions{
+        font-size: 26px;
+
+    }
+    
+    .h3__result{
+        color: goldenrod;
+        font-size: 2em;
+        margin: 0.5em;
+    }
+    
+    .number__result{
+        border: 5px solid black;
+        border-radius: 10px;
+        padding: 20px 0;
+        width: 30vw;
+    }
+  
    
 }
